@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.center {
+  display: flex;
+  max-width: 1100px;
+  padding: 0 2%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+section.main {
+  background-image: url(img/planet\ background.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  padding: 20px 0 80px 0;
+
+}
+
+
+.mockup {
+
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.mockup h1 {
+  font-size: 75px;
+}
+
+.mockup p {
+  font-size: 25px;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+}
+
+
+.dino {
+  position: absolute;
+  bottom: 0;
+  background-image: url(dino.png);
+  width: 60px;
+  height: 60px;
+}
+
+.cactus {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  background-image: url(cactus.png);
+}
+
+.game-over {
+  font-size: 75px;
+  text-align: center;
+  color: black;
+  margin: 50px 0;
+  font-family: 'Raleway',
+    sans-serif;
+}
+
+@keyframes slideright {
+  from {
+    background-position: 70000%;
+  }
+
+  to {
+    background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  background-image: url('background.png');
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+}
+
+footer {
+  padding: 10px 0;
+  background: black;
+  color: white;
+}
+
+.text-footer {
+  width: 50%;
+  padding: 8px 0;
+}
+
+
+.text-footer {
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+}
